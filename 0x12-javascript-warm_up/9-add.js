@@ -1,6 +1,6 @@
 #!/usr/bin/node
 function add (e, f) {
-	return a + b
+	return e + f
 }
 
-console.log(add(Number(process.argv[1])))
+console.log(add(Number(process.arg[2])))
